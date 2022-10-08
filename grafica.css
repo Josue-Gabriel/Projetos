@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+  color: white;
+  background-image: url("imagens/imagem de fundo.gif");
+  background-repeat: no-repeat;
+  background-size: 1500px 2000px;
+  font-family: sans-serif;
+}
+.corpo{
+  text-align: center;
+}
+.capa{
+  position: static;
+}
+.texto{
+  text-align: left;
+  text-shadow: 3px 3px white;
+  border: solid;
+  border-color: black;
+  background-image: linear-gradient(to bottom, purple, cyan);
+  padding: 100px;
+  color: black;
+}
+#topicos{
+  text-decoration: underline;
+}
+.sobre{
+  text-align: center;
+}
+.conhecimento{
+  text-decoration: underline;
+}
+#nivel_especilista{
+  color: purple;
+}
+#nivel_avançado{
+  color: yellow;
+}
+#nivel_intermediario{
+  color: #ffa500;
+}
+#nivel_basico{
+  color: red;
+}
+.whatsapp{
+  margin-right: 300px;
+}
+.email{
+  margin-left: 300px;
+  margin-top: -103px;
+}
+#teste{
+  margin: -100px 30px 10px 10px;
+}
+.mais{
+  display: none;
+}
+.robo_do_whats{
+  border: solid;
+  border-color: white;
+  text-align: left;
+  margin-left: 200px;
+}
+#mais{
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  width: 103px;
+  margin-left: 46%;
+}
+#imagem{
+  transition: transform 0.5s;
+}
+#imagem:hover{
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#textoArmazenamento{
+  position: absolute;
+  display: none;
+}
+#fechar{
+  margin-top: -408px;
+  margin-left: 505px;
+  position: absolute;
+  display: none;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+#fechar:hover{
+  background-color: red;
+}
+#textoWhats{
+  position: absolute;
+  display: none;
+}
