@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+				<title>Pizzaria</title>
+
+				<style>
+								h1{
+												color: #aaa520;
+												margin: 210px 10px 10px 170px;
+
+								}
+								#pizza{
+												color: #aaa520;
+												margin: 30px 10px 10px 10px;
+
+								}
+								#Lanches{
+												color: #white;
+												text-align: right;
+												margin: -653px 20px 100px -20px
+
+
+								}
+								p{
+												color: white;
+								}
+								#Bebidas{
+												margin: 130px 10px 10px 10px;
+
+								}
+								a{
+												color: white;
+								}
+								#script{
+												color: white;
+												background-color: white;
+								}
+								body{
+												color: white;
+												background-repeat: no-repeat;
+												background-color: black;
+												height: 100%;
+												width: 100%;
+												position: relative;
+
+								}
+								#bebida{
+												margin: 10px 100px 10px -10px;
+								}
+								h3{
+												color: #aaa520;
+								}
+								a{
+												color: red;
+								}
+								#localização{
+
+								}
+				</style>
+
+</head>
+<body background="Fundo.jpg">
+				<h1>CARDÁPIO</h1>
+				<h3 id="pizza">Pizzas</h3>
+<!-------------- PIZZAS ---------------->
+
+<!-------- Pizza de calabresa ---------->
+				<h4><a id="calabresa"href="Pizza de calabresa.html">Pizza de calabresa</a></h4>
+				<strong>R$ 25,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+					<br>
+					<br>
+	<button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Pizza de calabresa', document.getElementById('qtd1').value, '25.00', 1)"> Comprar </button>
+<!--------- Pizza de calabresa --------->
+
+<!----------- Pizza de frango ---------->
+		   <h4><a id="frango" href="Pizza de frango.html">Pizza de frango</a></h4>
+
+				<strong>R$ 11,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+					<br>
+					<br>
+	 <button type="button" id="adicionar2" id="produto2" onclick="AddCarrinho('Pizza de frango', document.getElementById('qtd2').value, '11.00', 2)"> Comprar </button>
+<!--------- Pizza de frango ------------>
+
+<!--------- Pizza de muçarela ---------->
+
+				<h4><a id="muçarela" href="Pizza de muçarela.html">Pizza de muçarela</a></h4>
+
+				<strong>R$ 22,50</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+					<br>
+					<br>
+	 <button type="button" id="adicionar3" id="produto3" onclick="AddCarrinho('Pizza de muçarela', document.getElementById('qtd3').value, '22.50', 3)"> Comprar </button>
+
+
+<!-------- Pizza de muçarela ----------->
+
+<!---------- Pizza de carne ------------>
+				<h4><a id="carne" href="pizza de carne.html">Pizza de carne</a></h4>
+
+				<strong>R$ 11,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd4">
+					<br>
+					<br>
+	 <button type="button" id="adicionar4" id="produto4" onclick="AddCarrinho('Pizza de carne', document.getElementById('qtd4').value, '11.00', 4)"> Comprar </button>
+<!---------- Pizza de carne ------------>
+
+<!-------------- PIZZAS ---------------->
+
+<!------------LANCHES---------------->
+				<div id="Lanches">
+								<h3>Lanches</h3>
+
+<!--------------- Coxinha -------------->
+								<h4><a id="coxinha" href="coxinhas.html">Coxinha</a></h4>
+
+<strong>R$ 4,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd5">
+					<br>
+					<br>
+	 <button type="button" id="adicionar5" id="produto5" onclick="AddCarrinho('Coxinha', document.getElementById('qtd5').value, '4.00', 5)"> Comprar </button>
+
+<!--------------- Coxinha -------------->
+
+<!--------------- Kibe ----------------->
+								<h4><a id="kibe" href="kibe.html">Kibe</a></h4>
+								<strong>R$ 4,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd6">
+					<br>
+					<br>
+	 <button type="button" id="adicionar6" id="produto6" onclick="AddCarrinho('Kibe', document.getElementById('qtd6').value, '4.00', 6)"> Comprar </button>
+<!--------------- Kibe ----------------->
+
+<!------------- Hot-Dog ---------------->
+								<h4><a id="Hot" href="hot-dog.html">Hot-Dog</a></h4>
+
+								<strong>7,00R$</strong>
+								<br>
+
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd7">
+					<br>
+					<br>
+	 <button type="button" id="adicionar7" id="produto7" onclick="AddCarrinho('Hot-dog', document.getElementById('qtd7').value, '7.00', 7)"> Comprar </button>
+<!--------------- Hot-Dog -------------->
+				<br>
+				<br>
+				<br>
+
+				</div>
+<!-------------- LANCHES --------------->
+
+<!-------------- BEBIDAS --------------->
+				<div id="Bebidas">
+						<h3>Bebidas</h3>
+  					<div id="bebida">
+<!--------------- Laranja -------------->
+  					<h4><a id="laranja" href="laranja.html">Suco de laranja</a></h4>
+						<strong>R$ 3,50</strong>
+						<br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd8">
+					<br>
+					<br>
+	 <button type="button" id="adicionar8" id="produto8" onclick="AddCarrinho('Suco de laranja', document.getElementById('qtd8').value, '3.50', 8)"> Comprar </button>
+<!--------------- Laranja -------------->
+
+<!---------------- Uva ----------------->
+						<h4><a id="uva" href="uva.html">Suco de uva</a></h4>
+
+						<strong>R$ 3,50</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd9">
+					<br>
+					<br>
+	 <button type="button" id="adicionar9" id="produto9" onclick="AddCarrinho('Suco de uva', document.getElementById('qtd9').value, '3.50', 9)"> Comprar </button>
+<!---------------- Uva ----------------->
+
+<!-------------- Coca-Cola ------------->
+						<h4><a id="coca" href="coca cola.html">Coca-cola</a></h4>
+						<strong>R$ 7,00</strong><br>
+	qtd: <input type="number" value="1" min="1" max="10" id="qtd10">
+					<br>
+					<br>
+	 <button type="button" id="adicionar10" id="produto10" onclick="AddCarrinho('Coca-cola', document.getElementById('qtd10').value, '7.00', 10)"> Comprar </button>
+<!-------------- Coca-cola ------------->
+						</div>
+				</div>
+<!-------------- BEBIDAS --------------->
+				<script>
+<!------------ Variaveis --------------->
+								var cont = 1;
+								var cunt = 1;
+								var cant = 1;
+								var cint = 1;
+								var nome = '';
+								var nome1= '';
+								var nome2= '';
+								var nome3= '';
+								var lol = 1;
+								var lol2 = 1;
+								var lol3 = 1;
+								var nomel1 = '';
+								var nomel2 = '';
+								var nomel3 = '';
+								var nomeb1 = '';
+								var nomeb2 = '';
+								var nomeb3 = '';
+								var beb = '';
+								var beb2 = '';
+								var beb3 = '';
+<!------------ Variaveis --------------->
+
+<!-------------- Funções --------------->
+								function mais1(){ document.getElementById("res1").innerHTML = nome1 + cunt++;
+				}
+								function menos1(){
+												document.getElementById("res1").innerHTML= nome = --cunt;
+								}
+								function mais2(){ document.getElementById("res2").innerHTML = nome2 + cant++;
+				}
+								function menos2(){
+												document.getElementById("res2").innerHTML= nome = --cant;
+								}
+
+								function mais3(){ document.getElementById("res3").innerHTML = nome3 + cint++;
+				}
+								function menos3(){
+												document.getElementById("res3").innerHTML= nome = --cint;
+								}
+								function maisl1(){ document.getElementById("resl1").innerHTML = nomel1 + lol++;
+				}
+								function menosl1(){
+												document.getElementById("resl1").innerHTML= nomel1 = --lol;
+								}
+								function maisl2(){ document.getElementById("resl2").innerHTML = nomel2 + lol2++;
+				}
+								function menosl2(){
+												document.getElementById("resl2").innerHTML= nomel2 = --lol2;
+								}
+								function maisl3(){ document.getElementById("resl3").innerHTML = nomel3 + lol3++;
+				}
+								function menosl3(){
+												document.getElementById("resl3").innerHTML= nomel3 = --lol3;
+								}
+								function maisb1(){ document.getElementById("resb1").innerHTML = nomeb1 + beb++;
+				}
+								function menosb1(){
+												document.getElementById("resb1").innerHTML= nomeb1 = --beb;
+								}
+								function maisb2(){ document.getElementById("resb2").innerHTML = nomeb2 + beb2++;
+				}
+								function menosb2(){
+												document.getElementById("resb2").innerHTML= nomeb2 = --beb2;
+								}
+								function maisb3(){ document.getElementById("resb3").innerHTML = nomeb3 + beb3++;
+				}
+								function menosb3(){
+												document.getElementById("resb3").innerHTML= nomeb3 = --beb3;
+								}
+								function AddCarrinho(produto, qtd, valor, posicao)
+	{
+		localStorage.setItem("produto" + posicao, produto);
+		localStorage.setItem("qtd" + posicao, qtd);
+		valor = valor * qtd;
+		localStorage.setItem("valor" + posicao, valor);
+		alert("Produto adicionado ao carrinho!");
+		}
+<!-------------- Funções --------------->
+				</script>
+</body>
+</html>
