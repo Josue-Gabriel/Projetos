@@ -1,0 +1,146 @@
+body{
+  background-color: black;
+  color: white;
+  background-image: url("imagens/imagem de fundo.gif");
+  background-repeat: no-repeat;
+  background-size: 1500px 3000px;
+  font-family: sans-serif;
+}
+.corpo{
+  text-align: center;
+}
+.capa{
+  position: static;
+}
+.texto{
+  text-align: left;
+  text-shadow: 3px 3px white;
+  border: solid;
+  border-color: black;
+  background-image: linear-gradient(to bottom, purple, cyan);
+  padding: 100px;
+  color: black;
+}
+#topicos{
+  text-decoration: underline;
+}
+.sobre{
+  text-align: center;
+}
+.conhecimento{
+  text-decoration: underline;
+}
+#nivel_especilista{
+  color: purple;
+}
+#nivel_avançado{
+  color: yellow;
+}
+#nivel_intermediario{
+  color: #ffa500;
+}
+#nivel_basico{
+  color: red;
+}
+.whatsapp{
+  margin-right: 42%;
+}
+.email{
+  margin-left: 650px;
+  margin-top: -105px;
+}
+#link{
+  margin: -1.9% 1% 10% 1%;
+}
+.mais{
+  display: none;
+}
+#mais{
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  width: 103px;
+  margin-left: 46%;
+}
+#imagem{
+  transition: transform 0.5s;
+  display: inline;
+}
+#imagem:hover{
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.explicação{
+  display: none;
+}
+#fechar{
+  margin: 10px 10px 10px 1100px;
+  display: none;
+  border: solid;
+  border-color: black;
+  border-radius: 10px;
+  position: absolute;
+}
+#fechar:hover{
+  background-color: red;
+}
+@media screen and (max-width: 768px){
+  .whatsapp{
+    font-size: 10px;
+  }
+  .email{
+    font-size: 10px;
+    margin-left: 180px;
+    margin-top: -78px;
+  }
+  .python{
+    word-spacing: 300px;
+  }
+  .html{
+    word-spacing: 325px;
+  }
+  .java{
+    word-spacing: 335px;
+  }
+  .mysql{
+    word-spacing: 318px;
+  }
+  .php{
+    word-spacing: 338px;
+  }
+  .vba{
+    word-spacing: 339px;
+  }
+  .css{
+    word-spacing: 313px;
+  }
+  .javascript{
+    word-spacing: 273px;
+  }
+  .lua{
+    word-spacing: 370px;
+  }
+  #link{
+    margin: -5.9% 1% 10% 1%;
+  }
+  #titulo{
+    font-size: 20px;
+  }
+  .explicação{
+    width: 100%;
+    height: 250px;
+  }
+  #fechar{
+    margin: 2px 10px 10px 70%;
+    height: 20px;
+  }
+  body{
+    background-size: 450px 3718px;
+  }
+  #imagem{
+    width: 100%;
+  }
+  .texto{
+    width: 45%;
+  }
+}
