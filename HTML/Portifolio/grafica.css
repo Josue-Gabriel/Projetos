@@ -1,0 +1,143 @@
+body{
+  background-color: black;
+}
+
+.cards .card-body{
+  background-color: black;
+  color: white;
+}
+
+.detalhes{
+  display: none;
+}
+
+.config{
+  cursor: pointer;
+}
+
+.cards .row{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.title{
+  color: white;
+}
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+.sobre h6{
+  color: yellow;
+}
+
+.capa{
+  background-image: linear-gradient(to top, cyan, purple);
+  position: relative;
+}
+
+.contra-capa{
+  background-image: linear-gradient(to top, cyan, purple);
+  position: relative;
+}
+
+.contra-capa a{
+  margin-left: 12em;
+}
+
+.capa #titulos{
+  margin-right: 45em;
+  font-family: Lucida Sans;
+}
+
+.capa #titulos > h1{
+  color: yellow;
+  white-space: nowrap;
+}
+
+.capa #titulos > h3{
+  color: purple;
+  white-space: nowrap;
+}
+
+#links{
+  background-color: black;
+}
+
+.tags{
+  width: 350px;
+  padding: 1em;
+  display: flex;
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+
+.tags button{
+  color: white;
+}
+
+.tag{
+  border: solid;
+  border-radius: 1em;
+  background-color: red;
+  margin: 2em;
+  min-width: 10em;
+  max-width: 7em;
+  min-height: 7em;
+  max-height: 7em;
+}
+
+.tags h1{
+  margin-top: 25px;
+}
+
+#proxima{
+  position: absolute;
+  margin-left: 350px;
+}
+
+#voltar{
+  position: absolute;
+  margin-left: -4em;
+}
+
+#proxima, #voltar{
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+  height: 27%;
+  margin-top: -13px;
+}
+
+@media (max-width: 1000px) {
+  .capa img{
+    width: 350em;
+  }
+  .capa #titulos > h1{
+    font-size: 5em;
+  }
+  .capa #titulos > h3{
+    font-size: 2em;
+  }
+  .sobre .col-md-9{
+    line-height: 17px;
+  }
+  .tags button{
+    display: none;
+  }
+  .tags{
+    scroll-behavior: smooth;
+    overflow-x: auto;
+  }
+  .contra-capa a{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .cards .card-body{
+    height: 25em;
+  }
+}
